@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://prossvet.github.io/estetika-site/sitemap.xml

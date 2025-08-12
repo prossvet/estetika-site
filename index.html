@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ЭСТЕТИКА — Натяжные потолки в СПб | Монтаж за 1 день</title>
+  <meta name="description" content="ЭСТЕТИКА: натяжные потолки в Санкт‑Петербурге и Ленобласти. Замер бесплатно, монтаж за 1 день, гарантия 10 лет.">
+  <link rel="icon" href="assets/logo.svg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="container wrap">
+    <div style="display:flex;gap:10px;align-items:center">
+      <img src="assets/logo.svg" alt="" width="28" height="28"><b>ЭСТЕТИКА</b>
+      <span style="color:#9aa3b2;font-size:12px;margin-left:6px">натяжные потолки • СПб</span>
+    </div>
+    <nav><a class="btn" href="#contact">Заявка</a></nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container wrap">
+      <div>
+        <span class="tag">СПб и Ленинградская область</span>
+        <h1 style="margin:10px 0 8px;font-size:40px">ЭСТЕТИКА — натяжные потолки под ключ</h1>
+        <p style="color:#9aa3b2">Замер бесплатно, монтаж за 1 день, гарантия 10 лет. Классические, парящие, двухуровневые, освещение и скрытые карнизы.</p>
+        <div style="display:flex;gap:10px;margin-top:10px">
+          <a class="btn" href="#calc">Рассчитать стоимость</a>
+          <a class="btn" style="background:transparent;border-color:#2a3042" href="https://wa.me/79119101102" target="_blank" rel="noopener">WhatsApp</a>
+          <a class="btn" style="background:transparent;border-color:#2a3042" href="tel:+79119101102">Позвонить +7 911 910‑11‑02</a>
+        </div>
+        <div class="tag" style="margin-top:10px">Минимальный заказ — от 7 000 ₽</div>
+      </div>
+      <aside><img src="assets/hero.svg" alt="Натяжные потолки СПб"></aside>
+    </div>
+  </section>
+
+  <section>
+    <div class="container cards">
+      <div class="card"><h3>Фиксированная смета</h3><div style="color:#9aa3b2">Согласуем цену до начала работ.</div></div>
+      <div class="card"><h3>Замер в день обращения</h3><div style="color:#9aa3b2">Выезд по СПб и области.</div></div>
+      <div class="card"><h3>Гарантия 10 лет</h3><div style="color:#9aa3b2">Материалы и монтаж под гарантией.</div></div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="container">
+      <h2>Услуги</h2>
+      <div class="cards">
+        <div class="card"><img class="shot" src="assets/srv1.svg" alt=""><h3>Классические потолки</h3><div style="color:#9aa3b2">Матовые, глянцевые, сатиновые</div></div>
+        <div class="card"><img class="shot" src="assets/srv2.svg" alt=""><h3>Парящие и двухуровневые</h3><div style="color:#9aa3b2">Световые линии, геометрия</div></div>
+        <div class="card"><img class="shot" src="assets/srv3.svg" alt=""><h3>Освещение</h3><div style="color:#9aa3b2">Встроенные светильники, трек‑системы</div></div>
+        <div class="card"><img class="shot" src="assets/srv4.svg" alt=""><h3>Слив воды</h3><div style="color:#9aa3b2">Аварийный слив воды и восстановление</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <div class="container">
+      <h2>Портфолио</h2>
+      <div class="cards portfolio">
+        <img class="shot" src="assets/p1.svg" alt="Работа 1">
+        <img class="shot" src="assets/p2.svg" alt="Работа 2">
+        <img class="shot" src="assets/p3.svg" alt="Работа 3">
+        <img class="shot" src="assets/p4.svg" alt="Работа 4">
+        <img class="shot" src="assets/p5.svg" alt="Работа 5">
+        <img class="shot" src="assets/p6.svg" alt="Работа 6">
+      </div>
+    </div>
+  </section>
+
+  <section id="calc">
+    <div class="container calc">
+      <div class="box">
+        <h3>Калькулятор стоимости</h3>
+        <label>Площадь (м²) <input id="area" type="number" min="1" value="18"></label>
+        <label>Тип потолка
+          <select id="type">
+            <option value="matte">Матовый — 700 ₽/м²</option>
+            <option value="gloss">Глянцевый — 750 ₽/м²</option>
+            <option value="satin">Сатиновый — 800 ₽/м²</option>
+            <option value="float">Парящий — 1100 ₽/м²</option>
+          </select>
+        </label>
+        <label>Освещение
+          <select id="light">
+            <option value="0">Без подсветки</option>
+            <option value="spot10">Точечные (до 10 шт.)</option>
+            <option value="spot20">Точечные (до 20 шт.)</option>
+            <option value="track">Трек‑система</option>
+          </select>
+        </label>
+        <div class="price" id="price">—</div>
+        <button class="btn" id="calcBtn">Рассчитать</button>
+        <a class="btn" id="waLead" href="https://wa.me/79119101102" target="_blank" rel="noopener" style="background:transparent;border-color:#2a3042">Отправить в WhatsApp</a>
+      </div>
+      <div class="box">
+        <h3>Быстрая заявка</h3>
+        <p style="color:#9aa3b2">Тел.: <a href="tel:+79119101102">+7 911 910‑11‑02</a> • Email: <a href="mailto:DUSHAMOV.DJON@MAIL.RU">DUSHAMOV.DJON@MAIL.RU</a></p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer id="contact" style="border-top:1px solid #1a1e2b;padding:24px 0;color:#aab4c8">
+  <div class="container">
+    <p>© 2025 ЭСТЕТИКА. Самозанятый (НПД), ИНН 471102037247. Чек через «Мой налог».</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
